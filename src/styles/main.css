@@ -1,0 +1,25 @@
+/* Base */
+@import 'base/global';
+@import 'base/reset';
+
+/* @import 'base/variables';
+@import 'base/typography';
+
+// Components
+@import 'components/buttons';
+@import 'components/carousel';
+
+// Layout
+@import 'layout/grid';
+@import 'layout/header';
+
+// Pages
+@import 'pages/home';
+@import 'pages/contact';
+
+// Themes (optional)
+@import 'themes/theme';
+@import 'themes/admin';
+
+// Vendors (optional)
+@import 'vendors/bootstrap'; */
