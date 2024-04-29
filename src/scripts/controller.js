@@ -4,10 +4,10 @@
 // -----------------------------------------------------------------------------
 
 // MODEL
-import Model from './model.js';
+import model from './model.js';
 
 // VIEWS
-// import exampleView from './views/exampleView.js';
+import Movie from './views/movie.js';
 
 // -----------------------------------------------------------------------------
 // CONTROLLER
@@ -23,7 +23,6 @@ Main controller class that handles all event subscribers and publisher interacti
 // class to manage interactions between the model and views.
 class Controller {
     constructor() {
-        this.model = new UserModel();
         // Bindings for methods to ensure 'this' context is maintained
         this.exampleMethod = this.exampleMethod.bind(this);
 
@@ -43,5 +42,4 @@ class Controller {
     }
 }
 
-const Controller = new Controller();
-export default Controller;
+export default controller;

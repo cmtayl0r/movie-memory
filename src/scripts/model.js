@@ -6,7 +6,7 @@
 class Model {
     constructor() {
         // Initial data set, could also be fetched from an API
-        // this.users = [];
+        this.users = ['Chris', 'Anna', 'Hazel'];
     }
 
     loadData() {
@@ -19,4 +19,4 @@ class Model {
     // }
 }
 
-export default Model;
+export default model;

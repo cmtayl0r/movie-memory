@@ -1,6 +1,8 @@
 /* Base */
-@import 'base/global';
-@import 'base/reset';
+
+/* @import 'base/global.css'; */
+
+/* @import 'base/reset'; */
 
 /* @import 'base/variables';
 @import 'base/typography';
@@ -23,3 +25,10 @@
 
 // Vendors (optional)
 @import 'vendors/bootstrap'; */
+
+.movie-card {
+    display: flex;
+    border: 2px gray solid;
+    border-radius: 10px;
+    padding: 10px;
+}

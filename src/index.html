@@ -5,9 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Movie Memory</title>
         <link rel="stylesheet" href="styles/main.css" />
-        <script type="module" src="scripts/main.js"></script>
+        <script defer src="scripts/main.js"></script>
     </head>
     <body>
         <h1>Movie Memory</h1>
+
+        <form action="" id="form-add-movie">
+            <input
+                type="text"
+                name="title"
+                id="movie-title"
+                placeholder="Movie title"
+            />
+            <input
+                type="text"
+                name="rating"
+                id="movie-rating"
+                placeholder="Movie rating"
+            />
+            <input
+                type="text"
+                name="genre"
+                id="movie-genre"
+                placeholder="Movie genre"
+            />
+            <button type="submit" id="add-movie">Add movie</button>
+        </form>
+        <ul id="movie-list"></ul>
     </body>
 </html>
